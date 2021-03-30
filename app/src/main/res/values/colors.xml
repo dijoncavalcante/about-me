@@ -10,5 +10,9 @@
     <color name="app_second">#2c3848</color>
     <color name="app_primary_500">#5ca0d3</color>
     <color name="app_second_light">#6b737f</color>
+    <color name="app_primary_night">#5C1249</color>
+    <color name="on_primary_night">#FFFFFF</color>
+    <color name="app_surface_night">#FFFFFF</color>
+    <color name="on_surface_night">#000000</color>
 
 </resources>
