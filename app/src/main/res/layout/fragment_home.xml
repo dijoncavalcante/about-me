@@ -30,11 +30,9 @@
 
             <TextView
                 android:id="@+id/tv_tfvname"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
                 android:text="@string/aboutme"
@@ -67,11 +65,9 @@
 
             <TextView
                 android:id="@+id/tv_tfvname2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
                 android:text="@string/backgroud"
@@ -104,11 +100,9 @@
 
             <TextView
                 android:id="@+id/tv_experience"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
                 android:text="@string/experience"
@@ -124,7 +118,6 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
         android:layout_toRightOf="@id/carViewExperience"
-
         app:cardCornerRadius="30dp">
 
         <LinearLayout
@@ -143,11 +136,9 @@
 
             <TextView
                 android:id="@+id/tv_findme"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
                 android:layout_marginTop="15dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
                 android:text="@string/findMe"
