@@ -22,11 +22,12 @@
 
             <ImageView
                 android:id="@+id/iv_imageurl"
+                android:paddingTop="10dp"
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/bg_detail_radius_container_botton" />
+                android:src="@drawable/ic_aboutme" />
 
             <TextView
                 android:id="@+id/tv_tfvname"
@@ -57,11 +58,12 @@
 
             <ImageView
                 android:id="@+id/iv_imageurl2"
+                android:paddingTop="10dp"
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/bg_detail_radius_container_botton" />
+                android:src="@drawable/ic_degree" />
 
             <TextView
                 android:id="@+id/tv_tfvname2"
@@ -92,11 +94,12 @@
 
             <ImageView
                 android:id="@+id/iv_experience"
+                android:paddingTop="10dp"
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/bg_detail_radius_container_botton" />
+                android:src="@drawable/ic_experience" />
 
             <TextView
                 android:id="@+id/tv_experience"
@@ -128,11 +131,13 @@
 
             <ImageView
                 android:id="@+id/iv_findme"
+                android:paddingTop="10dp"
+
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/bg_detail_radius_container_botton" />
+                android:src="@drawable/ic_findme" />
 
             <TextView
                 android:id="@+id/tv_findme"

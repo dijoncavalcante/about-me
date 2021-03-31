@@ -26,7 +26,6 @@
             android:textColor="@android:color/white"
             android:textSize="30sp"
             app:layout_scrollFlags="scroll|enterAlways" />
-
     </com.google.android.material.appbar.AppBarLayout>
 
     <FrameLayout
