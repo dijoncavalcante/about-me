@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AboutMe</string>
     <string name="home_welcome">Oi, eu sou Dijon ;)</string>
+    <string name="aboutme">Sobre mim</string>
+    <string name="backgroud">Formação</string>
+    <string name="findMe">Me encontre</string>
+    <string name="experience">Experiência</string>
 </resources>
