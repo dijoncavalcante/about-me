@@ -15,4 +15,8 @@
     <color name="app_surface_night">#FFFFFF</color>
     <color name="on_surface_night">#000000</color>
 
+    <!--    new color-->
+    <color name="app_primary_green_1">#184040</color>
+    <color name="app_primary_green_2">#2F6565</color>
+    <color name="app_primary_green_3">#5D8484</color>
 </resources>
