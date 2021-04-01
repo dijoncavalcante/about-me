@@ -22,10 +22,10 @@
 
             <ImageView
                 android:id="@+id/iv_imageurl"
-                android:paddingTop="10dp"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:adjustViewBounds="true"
+                android:paddingTop="10dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_aboutme" />
 
@@ -58,10 +58,10 @@
 
             <ImageView
                 android:id="@+id/iv_imageurl2"
-                android:paddingTop="10dp"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:adjustViewBounds="true"
+                android:paddingTop="10dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_degree" />
 
@@ -84,6 +84,7 @@
         android:layout_below="@id/carViewAbout"
         android:layout_marginTop="16dp"
         android:layout_marginRight="20dp"
+        android:clickable="true"
         app:cardCornerRadius="30dp">
 
         <LinearLayout
@@ -94,10 +95,10 @@
 
             <ImageView
                 android:id="@+id/iv_experience"
-                android:paddingTop="10dp"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:adjustViewBounds="true"
+                android:paddingTop="10dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_experience" />
 
@@ -131,11 +132,11 @@
 
             <ImageView
                 android:id="@+id/iv_findme"
-                android:paddingTop="10dp"
-
                 android:layout_width="150dp"
+
                 android:layout_height="100dp"
                 android:adjustViewBounds="true"
+                android:paddingTop="10dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_findme" />
 
