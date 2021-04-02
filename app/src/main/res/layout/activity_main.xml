@@ -10,8 +10,8 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark"
         android:background="@color/app_primary_green_1"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
         app:elevation="0dp">
 
         <TextView
@@ -36,7 +36,9 @@
         android:paddingBottom="20dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <include layout="@layout/fragment_home" />
+        <include
+            android:id="@+id/layout_root"
+            layout="@layout/fragment_home" />
 
     </FrameLayout>
 
