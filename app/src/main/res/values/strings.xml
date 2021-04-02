@@ -5,5 +5,5 @@
     <string name="backgroud">Formação</string>
     <string name="findMe">Me encontre</string>
     <string name="experience">Experiência</string>
-    <string name="descritionJob"><![CDATA[Development (improvement & maintaining) requirements on the layers of Embedded Android platform (Apps, Framework) on the smartphones and tablets with Android OS delivery for Latin America. Besides working on the customization and development of Samsung\'s Android operating system. Some activities: ▪ Android native source code maintenance and bug fix;]]></string>
+    <string name="descritionJob"><![CDATA[Development (improvement & maintaining) requirements on the layers of Embedded Android platform (Apps, Framework) on the smartphones and tablets with Android OS delivery for Latin America.\nBesides working on the customization and development of Samsung\'s Android operating system.\nSome activities:\n▪ Android native source code maintenance and bug fix;]]></string>
 </resources>

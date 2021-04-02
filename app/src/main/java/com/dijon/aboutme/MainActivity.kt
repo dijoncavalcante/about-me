@@ -16,12 +16,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        binding.layoutRoot.carViewExperience.setOnClickListener { callExperience() }
+        binding.layoutRoot.carViewAbout.setOnClickListener { callExperienceActivity() }
+        binding.layoutRoot.carViewBackground.setOnClickListener { callExperienceActivity() }
+        binding.layoutRoot.carViewExperience.setOnClickListener { callExperienceActivity() }
+        binding.layoutRoot.carViewFindMe.setOnClickListener { callExperienceActivity() }
 
     }
 
-    private fun callExperience() {
+    private fun callExperienceActivity() {
         val intent = Intent(this, ExperienceActivity::class.java)
         startActivity(intent)
     }

@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
+
 }
 
 android {
@@ -45,6 +48,13 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //tag label
+    //implementation 'com.github.0975086498:TagLabelText:633cad7522'
+    implementation 'com.jakewharton.rxbinding:rxbinding:1.0.1'
+    kapt 'com.android.databinding:compiler:4.1.3'
+
+
 
 
 }
