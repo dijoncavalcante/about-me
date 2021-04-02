@@ -3,18 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@color/app_primary_green_1"
         tools:context=".ExperienceActivity">
 
-        <include android:id="@+id/layout_include"
+        <include
+            android:id="@+id/layout_include"
             layout="@layout/include_toolbar" />
 
         <androidx.constraintlayout.widget.Guideline
@@ -28,6 +26,7 @@
             android:id="@+id/iv_experience"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
             android:adjustViewBounds="true"
             android:background="@color/white"
             android:paddingTop="10dp"
@@ -36,22 +35,22 @@
             app:layout_constraintBottom_toTopOf="@id/guideline2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/guideline1" />
+            app:layout_constraintTop_toBottomOf="@id/guideline1"
+            android:contentDescription="@string/experience"/>
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.26675788" />
+            app:layout_constraintGuide_percent="0.12675788" />
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayoutExperience"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:background="@drawable/bg_detail_radius_container_top"
-            android:orientation="vertical"
             android:padding="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -228,7 +227,7 @@
                 android:layout_marginTop="30dp"
                 android:gravity="center_vertical"
                 android:singleLine="true"
-                android:text="SEFAZ-AM"
+                android:text="@string/sefaz"
                 android:textColor="@color/app_primary_green_1"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -274,16 +273,12 @@
             <Button
                 android:id="@+id/buttonExperience"
                 android:layout_width="match_parent"
-                android:layout_marginTop="30dp"
                 android:layout_height="wrap_content"
-                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="30dp"
+                android:text="@string/hire_me"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView_descriptionJob_1"
-                android:text="@string/hire_me" />
-            <!--                app:layout_constraintEnd_toEndOf="parent"-->
-            <!--                app:layout_constraintEnd_toStartOf="@id/textView_descriptionJob_1"-->
-            <!--                app:layout_constraintStart_toStartOf="parent"-->
-            <!--                app:layout_constraintTop_toBottomOf="id/textView_descriptionJob_1"-->
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView_descriptionJob_1" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
