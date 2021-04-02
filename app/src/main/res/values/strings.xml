@@ -5,5 +5,16 @@
     <string name="backgroud">Formação</string>
     <string name="findMe">Me encontre</string>
     <string name="experience">Experiência</string>
+    <!--    Experience Layout-->
     <string name="descritionJob"><![CDATA[Development (improvement & maintaining) requirements on the layers of Embedded Android platform (Apps, Framework) on the smartphones and tablets with Android OS delivery for Latin America.\nBesides working on the customization and development of Samsung\'s Android operating system.\nSome activities:\n▪ Android native source code maintenance and bug fix;]]></string>
+    <string name="descritionJob_3">▪ Development of new features and maintenance of an ERP system using .NET Windows Forms and DevExpress Libraries\n▪ Construction of queries and procedures using Oracle’s PL/SQL</string>
+    <string name="descritionJob_web">▪ Development of new features with Java EE</string>
+    <string name="developer_dotnet">Desenvolvedor .Net</string>
+    <string name="developer_web">Desenvolvedor Java</string>
+    <string name="software_engineer">Engenheiro de Software</string>
+    <string name="company_current">Sidia Instituto de Tecnologia</string>
+    <string name="company_current_label">Atualmente</string>
+    <string name="itriad">iTriad Instituto de Tecnologia</string>
+    <string name="grupo_simes">Grupo Simões</string>
+    <string name="hire_me">Me encontre aqui</string>
 </resources>

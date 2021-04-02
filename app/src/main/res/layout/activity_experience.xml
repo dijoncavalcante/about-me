@@ -1,112 +1,287 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/app_primary_green_1"
-    tools:context=".ExperienceActivity">
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.03" />
-
-    <ImageView
-        android:id="@+id/iv_experience"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:adjustViewBounds="true"
-        android:background="@color/white"
-        android:paddingTop="10dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/ic_experience"
-        app:layout_constraintBottom_toTopOf="@id/guideline2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/guideline1" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.26675788" />
+    android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayoutExperience"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/bg_detail_radius_container_top"
-        android:orientation="vertical"
-        android:padding="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/guideline2">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_primary_green_1"
+        tools:context=".ExperienceActivity">
 
         <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guidelineVerticalExperience"
+            android:id="@+id/guideline1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_begin="102dp" />
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.03" />
 
-
-        <com.dijon.aboutme.TagLabelText
-            android:id="@+id/textView_company"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:gravity="center_vertical"
-            android:text="Sidia Instituto de Tecnologia"
-            android:textColor="@color/app_primary_green_1"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:singleLine="true"
-            app:layout_constraintBottom_toTopOf="@id/textView_positionJob"
+        <ImageView
+            android:id="@+id/iv_experience"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_experience"
+            app:layout_constraintBottom_toTopOf="@id/guideline2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:tagBold="true"
-            app:tagFirst="true"
-            app:tagMarginEnd="8dp"
-            app:tagPaddingEnd="8dp"
-            app:tagPaddingStart="8dp"
-            app:tagRadius="6dp"
-            app:tagSize="12sp"
-            app:tagText="Atualmente"
-            app:tagTextBackgroundColor="@color/app_primary_green_1"
-            app:tagTextColor="#FFF" />
-<!--        app:tagTextBackgroundColor="#E40C0C"-->
-        <TextView
-            android:id="@+id/textView_positionJob"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:text="Engenheiro de Software"
-            android:textColor="@color/app_primary_green_2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
-            app:layout_constraintTop_toBottomOf="@id/textView_company" />
+            app:layout_constraintTop_toBottomOf="@id/guideline1" />
 
-        <TextView
-            android:id="@+id/textView_descriptionJob"
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.26675788" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutExperience"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:lineSpacingExtra="8dp"
-            android:textColor="@color/app_primary_green_3"
-            android:text="@string/descritionJob"
+            android:background="@drawable/bg_detail_radius_container_top"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
-            app:layout_constraintTop_toBottomOf="@id/textView_positionJob" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline2">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineVerticalExperience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="102dp" />
+
+
+            <com.dijon.aboutme.TagLabelText
+                android:id="@+id/textView_company_last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="22dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/company_current"
+                android:textColor="@color/app_primary_green_1"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView_positionJob_last"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tagBold="true"
+                app:tagFirst="true"
+                app:tagMarginEnd="8dp"
+                app:tagPaddingEnd="8dp"
+                app:tagPaddingStart="8dp"
+                app:tagRadius="6dp"
+                app:tagSize="12sp"
+                app:tagText="@string/company_current_label"
+                app:tagTextBackgroundColor="@color/app_primary_green_1"
+                app:tagTextColor="#FFF" />
+
+            <TextView
+                android:id="@+id/textView_positionJob_last"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/software_engineer"
+                android:textColor="@color/app_primary_green_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
+                app:layout_constraintTop_toBottomOf="@id/textView_company_last" />
+
+            <TextView
+                android:id="@+id/textView_descriptionJob_last"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="@string/descritionJob"
+                android:textColor="@color/app_primary_green_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
+                app:layout_constraintTop_toBottomOf="@id/textView_positionJob_last" />
+
+            <com.dijon.aboutme.TagLabelText
+                android:id="@+id/textView_company_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/itriad"
+                android:textColor="@color/app_primary_green_1"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView_descriptionJob_last"
+                app:tagBold="true"
+                app:tagFirst="true"
+                app:tagMarginEnd="8dp"
+                app:tagPaddingEnd="8dp"
+                app:tagPaddingStart="8dp"
+                app:tagRadius="6dp"
+                app:tagSize="12sp"
+                app:tagText="2016-2017"
+                app:tagTextBackgroundColor="@color/app_primary_green_1"
+                app:tagTextColor="#FFF" />
+
+            <TextView
+                android:id="@+id/textView_positionJob_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/developer_dotnet"
+                android:textColor="@color/app_primary_green_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
+                app:layout_constraintTop_toBottomOf="@id/textView_company_3" />
+
+            <TextView
+                android:id="@+id/textView_descriptionJob_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="@string/descritionJob_3"
+                android:textColor="@color/app_primary_green_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
+                app:layout_constraintTop_toBottomOf="@id/textView_positionJob_3" />
+
+            <com.dijon.aboutme.TagLabelText
+                android:id="@+id/textView_company_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/grupo_simes"
+                android:textColor="@color/app_primary_green_1"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView_descriptionJob_3"
+                app:tagBold="true"
+                app:tagFirst="true"
+                app:tagMarginEnd="8dp"
+                app:tagPaddingEnd="8dp"
+                app:tagPaddingStart="8dp"
+                app:tagRadius="6dp"
+                app:tagSize="12sp"
+                app:tagText="2013-2015"
+                app:tagTextBackgroundColor="@color/app_primary_green_1"
+                app:tagTextColor="#FFF" />
+
+            <TextView
+                android:id="@+id/textView_positionJob_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/developer_dotnet"
+                android:textColor="@color/app_primary_green_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
+                app:layout_constraintTop_toBottomOf="@id/textView_company_2" />
+
+            <TextView
+                android:id="@+id/textView_descriptionJob_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="@string/descritionJob_3"
+                android:textColor="@color/app_primary_green_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
+                app:layout_constraintTop_toBottomOf="@id/textView_positionJob_2" />
+
+            <com.dijon.aboutme.TagLabelText
+                android:id="@+id/textView_company_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="SEFAZ-AM"
+                android:textColor="@color/app_primary_green_1"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView_descriptionJob_2"
+                app:tagBold="true"
+                app:tagFirst="true"
+                app:tagMarginEnd="8dp"
+                app:tagPaddingEnd="8dp"
+                app:tagPaddingStart="8dp"
+                app:tagRadius="6dp"
+                app:tagSize="12sp"
+                app:tagText="2012-2013"
+                app:tagTextBackgroundColor="@color/app_primary_green_1"
+                app:tagTextColor="#FFF" />
+
+            <TextView
+                android:id="@+id/textView_positionJob_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/developer_web"
+                android:textColor="@color/app_primary_green_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
+                app:layout_constraintTop_toBottomOf="@id/textView_company_1" />
+
+            <TextView
+                android:id="@+id/textView_descriptionJob_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="@string/descritionJob_web"
+                android:textColor="@color/app_primary_green_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
+                app:layout_constraintTop_toBottomOf="@id/textView_positionJob_1" />
+
+            <Button
+                android:id="@+id/buttonExperience"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView_descriptionJob_1"
+                android:text="@string/hire_me" />
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintEnd_toStartOf="@id/textView_descriptionJob_1"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toBottomOf="id/textView_descriptionJob_1"-->
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
