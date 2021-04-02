@@ -1,10 +1,8 @@
 package com.dijon.aboutme
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.dijon.aboutme.databinding.ActivityExperienceBinding
 import com.dijon.aboutme.presentation.base.BaseActivity
-
 
 class ExperienceActivity : BaseActivity() {
 
