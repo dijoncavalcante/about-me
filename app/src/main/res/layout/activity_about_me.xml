@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_primary_green_1"
+    tools:context=".AboutMeActivity">
+
+    <include
+        android:id="@+id/layout_include"
+        layout="@layout/include_toolbar" />
+
+    <ImageView
+        android:id="@+id/iv_experience"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/bg_square_radius_container"
+        android:contentDescription="@string/aboutme"
+        android:foregroundGravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_aboutme"
+        app:layout_constraintBottom_toTopOf="@id/viewPager2AboutMe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_include" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2AboutMe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_detail_radius_container_top"
+        app:layout_constraintBottom_toTopOf="@id/indicatorAboutMe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_experience" />
+
+
+    <me.relex.circleindicator.CircleIndicator3
+        android:id="@+id/indicatorAboutMe"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/app_primary_green_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

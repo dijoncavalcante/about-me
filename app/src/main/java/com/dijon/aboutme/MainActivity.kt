@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.layoutRoot.carViewAbout.setOnClickListener { callExperienceActivity() }
+        binding.layoutRoot.carViewAbout.setOnClickListener { callAboutMeActivity() }
         binding.layoutRoot.carViewBackground.setOnClickListener { callExperienceActivity() }
         binding.layoutRoot.carViewExperience.setOnClickListener { callExperienceActivity() }
         binding.layoutRoot.carViewFindMe.setOnClickListener { callExperienceActivity() }
@@ -25,6 +25,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun callExperienceActivity() {
         val intent = Intent(this, ExperienceActivity::class.java)
+        startActivity(intent)
+    }
+    private fun callAboutMeActivity() {
+        val intent = Intent(this, AboutMeActivity::class.java)
         startActivity(intent)
     }
 }
