@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.layoutRoot.carViewAbout.setOnClickListener { callAboutMeActivity() }
-        binding.layoutRoot.carViewBackground.setOnClickListener { callExperienceActivity() }
+        binding.layoutRoot.carViewBackground.setOnClickListener { callDegreeActivity() }
         binding.layoutRoot.carViewExperience.setOnClickListener { callExperienceActivity() }
         binding.layoutRoot.carViewFindMe.setOnClickListener { callExperienceActivity() }
 
@@ -27,8 +27,14 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, ExperienceActivity::class.java)
         startActivity(intent)
     }
+
     private fun callAboutMeActivity() {
         val intent = Intent(this, AboutMeActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun callDegreeActivity() {
+        val intent = Intent(this, DegreeActivity::class.java)
         startActivity(intent)
     }
 }

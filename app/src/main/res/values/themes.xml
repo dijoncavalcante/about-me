@@ -12,5 +12,14 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/ToolbarStyle.Title</item>
+    </style>
+
+    <style name="ToolbarStyle.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">#FFFFFF</item>
     </style>
 </resources>

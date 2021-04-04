@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AboutMe">
-        <activity android:name=".AboutMeActivity"></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +19,12 @@
         </activity>
         <activity
             android:name=".ExperienceActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DegreeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutMeActivity"
             android:parentActivityName=".MainActivity" />
     </application>
 

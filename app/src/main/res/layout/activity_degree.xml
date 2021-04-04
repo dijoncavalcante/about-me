@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_primary_green_1"
+    tools:context=".DegreeActivity">
+
+    <include
+        android:id="@+id/layout_include"
+        layout="@layout/include_toolbar" />
+
+    <ImageView
+        android:id="@+id/iv_degree"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/bg_square_radius_container"
+        android:contentDescription="@string/backgroud"
+        android:foregroundGravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_degree"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_include" />
+    <!--    app:layout_constraintBottom_toTopOf="@id/viewPager2AboutMe"-->
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/fragmentDegree"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/iv_degree"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        />-->
+    <LinearLayout
+        android:id="@+id/linearLayoutDegree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/bg_detail_radius_container_top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_degree">
+        <!-- essa margin possibilitou o detalhe bg branco fosse exibido       android:layout_marginTop="250dp"-->
+
+        <TextView
+            android:id="@+id/tv_yearDegre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_square_radius_container_green"
+            android:text="2012 - 2017"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_universityDegre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:text="Centro Universitário do Norte - Uninorte"
+            android:textColor="@color/app_primary_green_2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_courseDegre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:text="Ciência da Computação"
+            android:textColor="@color/app_primary_green_3"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
