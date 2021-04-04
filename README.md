@@ -1,7 +1,7 @@
 # About App in progress
 ## Layout
 
-<img src="screenshot/home.jpg" width="250"> <img src="screenshot/experience_screen1.jpg" width="250"> <img src="screenshot/experience_screen2.jpg" width="250">
+<img src="screenshot/home.jpg" width="200"> <img src="screenshot/experience_screen1.jpg" width="200"> <img src="screenshot/experience_screen2.jpg" width="200"> <img src="screenshot/aboutme_screen1.jpg" width="200">
 
 
 # about-me
