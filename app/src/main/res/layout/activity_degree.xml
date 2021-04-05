@@ -103,7 +103,10 @@
             android:paddingStart="16dp"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
-            android:text="https://www.uninorte.com.br/" />
+            android:text="https://www.uninorte.com.br/"
+            android:textColor="@color/app_primary_green_3"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
 
         <ImageView
             android:layout_width="match_parent"
