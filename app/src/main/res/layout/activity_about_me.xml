@@ -19,7 +19,9 @@
         android:background="@drawable/bg_square_radius_container"
         android:contentDescription="@string/aboutme"
         android:foregroundGravity="center_horizontal"
+        android:paddingStart="2dp"
         android:paddingTop="10dp"
+        android:paddingEnd="2dp"
         android:paddingBottom="12dp"
         android:scaleType="fitCenter"
         android:src="@drawable/ic_aboutme"
@@ -30,11 +32,11 @@
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager2AboutMe"
-        android:layout_marginTop="16dp"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:padding="16dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/bg_detail_radius_container_top"
+        android:padding="16dp"
         app:layout_constraintBottom_toTopOf="@id/indicatorAboutMe"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
