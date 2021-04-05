@@ -1,11 +1,8 @@
 package com.dijon.aboutme
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.ImageView
-import androidx.cardview.widget.CardView
+import androidx.appcompat.app.AppCompatActivity
 import com.dijon.aboutme.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         binding.layoutRoot.carViewAbout.setOnClickListener { callAboutMeActivity() }
         binding.layoutRoot.carViewBackground.setOnClickListener { callDegreeActivity() }
         binding.layoutRoot.carViewExperience.setOnClickListener { callExperienceActivity() }
-        binding.layoutRoot.carViewFindMe.setOnClickListener { callExperienceActivity() }
+        binding.layoutRoot.carViewFindMe.setOnClickListener { callFindMeActivity() }
 
     }
 
@@ -35,6 +32,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun callDegreeActivity() {
         val intent = Intent(this, DegreeActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun callFindMeActivity() {
+        val intent = Intent(this, FindMeActivity::class.java)
         startActivity(intent)
     }
 }

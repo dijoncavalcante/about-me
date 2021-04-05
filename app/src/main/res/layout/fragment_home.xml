@@ -133,7 +133,6 @@
             <ImageView
                 android:id="@+id/iv_findme"
                 android:layout_width="150dp"
-
                 android:layout_height="100dp"
                 android:adjustViewBounds="true"
                 android:paddingTop="10dp"

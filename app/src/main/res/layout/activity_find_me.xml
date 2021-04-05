@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_primary_green_1"
+    tools:context=".FindMeActivity">
+
+    <include
+        android:id="@+id/layout_include"
+        layout="@layout/include_toolbar" />
+
+    <ImageView
+        android:id="@+id/iv_degree"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/bg_square_radius_container"
+        android:contentDescription="@string/findMe"
+        android:foregroundGravity="center_horizontal"
+        android:paddingStart="2dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="2dp"
+        android:paddingBottom="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_findme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_include" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFindMe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/bg_detail_radius_container_top"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_degree">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/carViewFindMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/carViewBackground"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/carViewExperience"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutFindMeWpp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_findme_wpp"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    app:cardCornerRadius="65dp">
+
+                    <ImageView
+                        android:id="@+id/iv_findme_wpp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_degree" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/textViewTitleWpp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_toRightOf="@id/cv_findme_wpp"
+                    android:text="WhatsApp contato"
+                    android:textColor="@color/app_primary_green_1"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewSubtitleWpp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitleWpp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_toRightOf="@id/cv_findme_wpp"
+                    android:text="+55 (92) 993210558"
+                    android:textColor="@color/app_primary_green_2"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
