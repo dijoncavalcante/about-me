@@ -28,8 +28,8 @@
     </style>
 
     <style name="ImageViewShapeable" parent="">
-        <item name="android:layout_width">70dp</item>
-        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:padding">5dp</item>
     </style>
@@ -39,21 +39,24 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">8dp</item>>
         <item name="android:layout_marginLeft">2dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/app_primary_green_1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+
     </style>
 
     <style name="TextViewSubTitleFindMe">
+        <item name="android:layout_gravity">center_vertical</item>
         <item name="android:textIsSelectable">true</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/app_primary_green_2</item>
         <item name="android:layout_marginStart">8dp</item>>
         <item name="android:layout_marginLeft">2dp</item>
-        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginTop">2dp</item>
         <item name="android:layout_marginBottom">8dp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -64,8 +67,8 @@
         <item name="android:layout_height">1dp</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginTop">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
         <item name="android:background">@color/app_primary_green_3</item>
     </style>
 
