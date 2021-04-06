@@ -22,4 +22,8 @@
     <style name="ToolbarStyle.Title" parent="TextAppearance.AppCompat.Title">
         <item name="android:textColor">#FFFFFF</item>
     </style>
+<!--imageview circular-->
+    <style name="Circular">
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>
