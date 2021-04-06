@@ -43,14 +43,14 @@
         app:layout_constraintTop_toBottomOf="@+id/iv_degree">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/carViewFindMe"
+            android:id="@+id/carViewFindMeWpp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/carViewBackground"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="5dp"
             android:layout_marginTop="16dp"
-            android:layout_toRightOf="@id/carViewExperience"
-            app:cardCornerRadius="30dp">
+            android:layout_marginEnd="5dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="15dp">
 
             <RelativeLayout
                 android:id="@+id/relativeLayoutFindMeWpp"
@@ -61,6 +61,7 @@
                     android:id="@+id/cv_findme_wpp"
                     android:layout_width="128dp"
                     android:layout_height="128dp"
+                    android:layout_marginLeft="5dp"
                     app:cardCornerRadius="65dp">
 
                     <ImageView
@@ -81,9 +82,9 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"
                     android:layout_toRightOf="@id/cv_findme_wpp"
-                    android:text="WhatsApp contato"
+                    android:text="WhatsApp"
                     android:textColor="@color/app_primary_green_1"
-                    android:textSize="16dp"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -97,9 +98,159 @@
                     android:layout_toRightOf="@id/cv_findme_wpp"
                     android:text="+55 (92) 993210558"
                     android:textColor="@color/app_primary_green_2"
-                    android:textSize="14dp" />
+                    android:textIsSelectable="true"
+                    android:textSize="20sp" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/app_primary_green_3" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/carViewFindMe_linkedin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutFindMeLinkedin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_findme_linkedin"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    app:cardCornerRadius="65dp">
+
+                    <ImageView
+                        android:id="@+id/iv_findme_linkedin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_degree" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/textViewTitleLinkedin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_toRightOf="@id/cv_findme_linkedin"
+                    android:text="Linkedin"
+                    android:textColor="@color/app_primary_green_1"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewSubtitleLinkedin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitleLinkedin"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_toRightOf="@id/cv_findme_linkedin"
+                    android:text="https://www.linkedin.com/in/dijon-braga-9a5b3911a/"
+                    android:textColor="@color/app_primary_green_2"
+                    android:textIsSelectable="true"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/app_primary_green_3" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/carViewFindMeInstagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutFindMeInstagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_findme_instagram"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="65dp">
+
+                    <ImageView
+                        android:id="@+id/iv_findme_instagram"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_degree" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/textViewTitleInstagram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_toRightOf="@id/cv_findme_instagram"
+                    android:text="Instagram"
+                    android:textColor="@color/app_primary_green_1"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewSubtitleInstagram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitleInstagram"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_toRightOf="@id/cv_findme_instagram"
+                    android:text="@string/dijonbraga_intagram"
+                    android:textColor="@color/app_primary_green_2"
+                    android:textIsSelectable="true"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/app_primary_green_3" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
