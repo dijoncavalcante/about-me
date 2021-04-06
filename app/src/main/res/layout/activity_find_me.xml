@@ -62,7 +62,7 @@
                     <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/iv_findme_wpp"
                         style="@style/ImageViewShapeable"
-                        android:src="@drawable/ic_degree"
+                        android:src="@drawable/ic_wpp"
                         app:shapeAppearanceOverlay="@style/Circular"
                         app:strokeColor="@color/app_primary_green_3"
                         app:strokeWidth="5dp" />
@@ -99,7 +99,7 @@
                     <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/iv_findme_linkedin"
                         style="@style/ImageViewShapeable"
-                        android:src="@drawable/ic_degree"
+                        android:src="@drawable/ic_linkedin"
                         app:shapeAppearanceOverlay="@style/Circular"
                         app:strokeColor="@color/app_primary_green_3"
                         app:strokeWidth="5dp" />
@@ -137,7 +137,7 @@
                     <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/iv_findme_gmail"
                         style="@style/ImageViewShapeable"
-                        android:src="@drawable/ic_degree"
+                        android:src="@drawable/ic_gmail"
                         app:shapeAppearanceOverlay="@style/Circular"
                         app:strokeColor="@color/app_primary_green_3"
                         app:strokeWidth="5dp" />
@@ -177,7 +177,7 @@
                     <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/iv_findme_twitter"
                         style="@style/ImageViewShapeable"
-                        android:src="@drawable/ic_degree"
+                        android:src="@drawable/ic_twitter_2"
                         app:shapeAppearanceOverlay="@style/Circular"
                         app:strokeColor="@color/app_primary_green_3"
                         app:strokeWidth="5dp" />
@@ -216,7 +216,7 @@
                     <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/iv_findme_instagram"
                         style="@style/ImageViewShapeable"
-                        android:src="@drawable/ic_degree"
+                        android:src="@drawable/ic_instagram"
                         app:shapeAppearanceOverlay="@style/Circular"
                         app:strokeColor="@color/app_primary_green_3"
                         app:strokeWidth="5dp" />
