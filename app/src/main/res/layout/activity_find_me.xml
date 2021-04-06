@@ -52,15 +52,11 @@
             <RelativeLayout
                 android:id="@+id/relativeLayoutFindMeWpp"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                >
+                android:layout_height="wrap_content">
 
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/iv_findme_wpp"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="16dp"
-                    android:padding="5dp"
+                    style="@style/ImageViewShapeable"
                     android:src="@drawable/ic_degree"
                     app:shapeAppearanceOverlay="@style/Circular"
                     app:strokeColor="@color/app_primary_green_3"
@@ -68,31 +64,16 @@
 
                 <TextView
                     android:id="@+id/textViewTitleWpp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="2dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/TextViewTitleFindMe"
                     android:layout_toRightOf="@id/iv_findme_wpp"
-                    android:text="WhatsApp"
-                    android:textColor="@color/app_primary_green_1"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:text="WhatsApp" />
 
                 <TextView
                     android:id="@+id/textViewSubtitleWpp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/TextViewSubTitleFindMe"
                     android:layout_below="@id/textViewTitleWpp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginBottom="16dp"
                     android:layout_toRightOf="@id/iv_findme_wpp"
-                    android:text="+55 (92) 993210558"
-                    android:textColor="@color/app_primary_green_2"
-                    android:textIsSelectable="true"
-                    android:textSize="18sp" />
+                    android:text="+55 (92) 993210558" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -119,10 +100,7 @@
 
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/iv_findme_linkedin"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="16dp"
-                    android:padding="5dp"
+                    style="@style/ImageViewShapeable"
                     android:src="@drawable/ic_degree"
                     app:shapeAppearanceOverlay="@style/Circular"
                     app:strokeColor="@color/app_primary_green_3"
@@ -130,31 +108,113 @@
 
                 <TextView
                     android:id="@+id/textViewTitleLinkedin"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="2dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/TextViewTitleFindMe"
                     android:layout_toRightOf="@id/iv_findme_linkedin"
-                    android:text="Linkedin"
-                    android:textColor="@color/app_primary_green_1"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:text="Linkedin" />
 
                 <TextView
                     android:id="@+id/textViewSubtitleLinkedin"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/TextViewSubTitleFindMe"
                     android:layout_below="@id/textViewTitleLinkedin"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginBottom="16dp"
                     android:layout_toRightOf="@id/iv_findme_linkedin"
-                    android:text="https://www.linkedin.com/in/dijon-braga-9a5b3911a/"
-                    android:textColor="@color/app_primary_green_2"
-                    android:textIsSelectable="true"
-                    android:textSize="10sp" />
+                    android:text="dijon-braga" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/app_primary_green_3" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/carViewFindMeGmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutFindMeGmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/iv_findme_gmail"
+                    style="@style/ImageViewShapeable"
+                    android:src="@drawable/ic_degree"
+                    app:shapeAppearanceOverlay="@style/Circular"
+                    app:strokeColor="@color/app_primary_green_3"
+                    app:strokeWidth="5dp" />
+
+
+                <TextView
+                    android:id="@+id/textViewTitleGmail"
+                    style="@style/TextViewTitleFindMe"
+                    android:layout_toRightOf="@id/iv_findme_gmail"
+                    android:text="Gmail" />
+
+                <TextView
+                    android:id="@+id/textViewSubtitleGmail"
+                    style="@style/TextViewSubTitleFindMe"
+                    android:layout_below="@id/textViewTitleGmail"
+                    android:layout_toRightOf="@id/iv_findme_gmail"
+                    android:text="dijoncavalcante@gmail.com" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/app_primary_green_3" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/carViewFindMeTwitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="15dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutFindMeTwitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/iv_findme_twitter"
+                    style="@style/ImageViewShapeable"
+                    android:src="@drawable/ic_degree"
+                    app:shapeAppearanceOverlay="@style/Circular"
+                    app:strokeColor="@color/app_primary_green_3"
+                    app:strokeWidth="5dp" />
+
+
+                <TextView
+                    android:id="@+id/textViewTitleTwitter"
+                    style="@style/TextViewTitleFindMe"
+                    android:layout_toRightOf="@id/iv_findme_twitter"
+                    android:text="Twitter" />
+
+                <TextView
+                    android:id="@+id/textViewSubtitleTwitter"
+                    style="@style/TextViewSubTitleFindMe"
+                    android:layout_below="@id/textViewTitleTwitter"
+                    android:layout_toRightOf="@id/iv_findme_twitter"
+                    android:text="@string/dijonbraga_intagram" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -184,54 +244,27 @@
 
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/iv_findme_instagram"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="16dp"
-                    android:padding="5dp"
+                    style="@style/ImageViewShapeable"
                     android:src="@drawable/ic_degree"
                     app:shapeAppearanceOverlay="@style/Circular"
                     app:strokeColor="@color/app_primary_green_3"
                     app:strokeWidth="5dp" />
 
-
                 <TextView
                     android:id="@+id/textViewTitleInstagram"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="2dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/TextViewTitleFindMe"
                     android:layout_toRightOf="@id/iv_findme_instagram"
-                    android:text="Instagram"
-                    android:textColor="@color/app_primary_green_1"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                    android:text="Instagram" />
 
                 <TextView
                     android:id="@+id/textViewSubtitleInstagram"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/TextViewSubTitleFindMe"
                     android:layout_below="@id/textViewTitleInstagram"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginBottom="16dp"
                     android:layout_toRightOf="@id/iv_findme_instagram"
-                    android:text="@string/dijonbraga_intagram"
-                    android:textColor="@color/app_primary_green_2"
-                    android:textIsSelectable="true"
-                    android:textSize="20sp" />
+                    android:text="@string/dijonbraga_intagram" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/app_primary_green_3" />
 
     </LinearLayout>
 
