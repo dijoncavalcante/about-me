@@ -27,7 +27,7 @@
         <item name="cornerSize">50%</item>
     </style>
 
-    <style name="ImageViewShapeable" parent="" >
+    <style name="ImageViewShapeable" parent="">
         <item name="android:layout_width">70dp</item>
         <item name="android:layout_height">70dp</item>
         <item name="android:layout_marginStart">16dp</item>
@@ -57,7 +57,16 @@
         <item name="android:layout_marginBottom">8dp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+    </style>
 
+    <style name="ViewCustomized">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:background">@color/app_primary_green_3</item>
     </style>
 
 

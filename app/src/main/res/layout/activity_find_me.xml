@@ -77,14 +77,7 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/app_primary_green_3" />
+        <View style="@style/ViewCustomized" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/carViewFindMe_linkedin"
@@ -121,22 +114,13 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/app_primary_green_3" />
+
+        <View style="@style/ViewCustomized" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/carViewFindMeGmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="5dp"
             app:cardCornerRadius="30dp"
             app:cardElevation="15dp">
 
@@ -169,23 +153,14 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/app_primary_green_3" />
+
+        <View style="@style/ViewCustomized" />
 
 
         <androidx.cardview.widget.CardView
             android:id="@+id/carViewFindMeTwitter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="5dp"
             app:cardCornerRadius="30dp"
             app:cardElevation="15dp">
 
@@ -218,22 +193,13 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/app_primary_green_3" />
+
+        <View style="@style/ViewCustomized" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/carViewFindMeInstagram"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="5dp"
             app:cardCornerRadius="30dp"
             app:cardElevation="15dp">
 
