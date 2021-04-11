@@ -19,6 +19,7 @@ class FindMeActivity : BaseActivity() {
         setupToolbar(bindingFindMeActivity.layoutInclude.toolbarMain, R.string.findMe, true)
 
         bindingFindMeActivity.carViewFindMeWpp.setOnClickListener { openWhatsApp() }
+        bindingFindMeActivity.carViewFindMeCall.setOnClickListener { openCaller() }
 
 
     }

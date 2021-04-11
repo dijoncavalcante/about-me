@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">AboutMe</string>
-    <string name="home_welcome">Oi, eu sou Dijon ;)</string>
+    <string name="home_welcome">Oi, eu sou Dijon ;)\nO que deseja saber sobre mim?</string>
     <string name="aboutme">Sobre mim</string>
     <string name="backgroud">Formação</string>
     <string name="findMe">Me encontre</string>

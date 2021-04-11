@@ -32,11 +32,47 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="16dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/iv_degree">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/carViewFindMeCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="15dp">
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutFindMeCall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/iv_findme_call"
+                        style="@style/ImageViewShapeable"
+                        android:src="@drawable/ic_call"
+                        app:shapeAppearanceOverlay="@style/Circular"
+                        app:strokeColor="@color/app_primary_green_3"
+                        app:strokeWidth="5dp" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleCall"
+                        style="@style/TextViewTitleFindMe"
+                        android:layout_toRightOf="@id/iv_findme_call"
+                        android:text="Telefone" />
+
+                    <TextView
+                        android:id="@+id/textViewSubtitleCall"
+                        style="@style/TextViewSubTitleFindMe"
+                        android:layout_below="@id/textViewTitleCall"
+                        android:layout_toRightOf="@id/iv_findme_call"
+                        android:text="+55 (92) 993210558" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <View style="@style/ViewCustomized" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/carViewFindMeWpp"
