@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="30dp"
-                app:cardElevation="15dp">
+                app:cardElevation="3dp">
 
                 <RelativeLayout
                     android:id="@+id/relativeLayoutFindMeCall"
@@ -143,6 +143,43 @@
                         android:layout_below="@id/textViewTitleLinkedin"
                         android:layout_toRightOf="@id/iv_findme_linkedin"
                         android:text="dijon-braga" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <View style="@style/ViewCustomized" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/carViewFindMe_github"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="15dp">
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutFindMeGithub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/iv_findme_github"
+                        style="@style/ImageViewShapeable"
+                        android:src="@drawable/ic_github"
+                        app:shapeAppearanceOverlay="@style/Circular"
+                        app:strokeColor="@color/app_primary_green_3"
+                        app:strokeWidth="5dp" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleGithub"
+                        style="@style/TextViewTitleFindMe"
+                        android:layout_toRightOf="@id/iv_findme_github"
+                        android:text="Github" />
+
+                    <TextView
+                        android:id="@+id/textViewSubtitleGithub"
+                        style="@style/TextViewSubTitleFindMe"
+                        android:layout_below="@id/textViewTitleGithub"
+                        android:layout_toRightOf="@id/iv_findme_github"
+                        android:text="dijoncavalcante" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
