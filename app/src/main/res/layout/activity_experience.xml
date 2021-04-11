@@ -20,7 +20,6 @@
             android:id="@+id/iv_experience"
             android:contentDescription="@string/experience"
             android:src="@drawable/ic_experience"
-            app:layout_constraintBottom_toTopOf="@id/constraintLayoutExperience"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/layout_include" />
