@@ -82,7 +82,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/carViewAbout"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="22dp"
         android:layout_marginRight="20dp"
         android:clickable="true"
         app:cardCornerRadius="30dp">
@@ -120,7 +120,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/carViewBackground"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="22dp"
         android:layout_toRightOf="@id/carViewExperience"
         app:cardCornerRadius="30dp">
 

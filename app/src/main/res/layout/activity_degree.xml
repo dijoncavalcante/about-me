@@ -13,17 +13,8 @@
 
     <ImageView
         android:id="@+id/iv_degree"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:adjustViewBounds="true"
-        android:background="@drawable/bg_square_radius_container"
+        style="@style/ImageViewTop"
         android:contentDescription="@string/backgroud"
-        android:foregroundGravity="center_horizontal"
-        android:paddingStart="2dp"
-        android:paddingTop="10dp"
-        android:paddingEnd="2dp"
-        android:paddingBottom="12dp"
-        android:scaleType="fitCenter"
         android:src="@drawable/ic_degree"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

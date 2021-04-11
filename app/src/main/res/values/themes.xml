@@ -74,5 +74,19 @@
         <item name="android:background">@color/app_primary_green_3</item>
     </style>
 
+    <style name="ImageViewTop" parent="">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/bg_square_radius_container</item>
+        <item name="android:foregroundGravity">center_horizontal</item>
+        <item name="android:paddingStart">2dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingEnd">2dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
 
 </resources>
