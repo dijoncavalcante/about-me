@@ -26,7 +26,7 @@ class FindMeActivity : BaseActivity() {
 
     private fun openCaller() {
         val intent = Intent(Intent.ACTION_DIAL)
-        intent.data = Uri.parse("tel:5592993210558")
+        intent.data = Uri.parse("tel:${getString(R.string.myCelphoneNumberwithDDD)}")
         startActivity(intent)
     }
 
@@ -35,7 +35,7 @@ class FindMeActivity : BaseActivity() {
         if (isAppInstalled) {
             val openIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://api.whatsapp.com/send?phone=5592993210558&text=${getString(R.string.message_hi_findme)}")
+                Uri.parse("https://api.whatsapp.com/send?phone=${getString(R.string.myCelphoneNumberwithDDD)}&text=${getString(R.string.message_hi_findme)}")
             )
             startActivity(openIntent)
         } else {
