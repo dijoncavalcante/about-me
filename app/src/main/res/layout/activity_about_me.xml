@@ -25,7 +25,6 @@
         android:paddingBottom="12dp"
         android:scaleType="fitCenter"
         android:src="@drawable/ic_aboutme"
-        app:layout_constraintBottom_toTopOf="@id/viewPager2AboutMe"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layout_include" />
@@ -34,14 +33,13 @@
         android:id="@+id/viewPager2AboutMe"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="250dp"
         android:background="@drawable/bg_detail_radius_container_top"
         android:padding="16dp"
-        app:layout_constraintBottom_toTopOf="@id/indicatorAboutMe"
+        app:layout_constraintBottom_toTopOf="@+id/indicatorAboutMe"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iv_experience" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
     <me.relex.circleindicator.CircleIndicator3
         android:id="@+id/indicatorAboutMe"
@@ -51,6 +49,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

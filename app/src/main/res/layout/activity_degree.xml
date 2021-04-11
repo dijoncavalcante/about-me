@@ -28,7 +28,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layout_include" />
-    <!--    app:layout_constraintBottom_toTopOf="@id/viewPager2AboutMe"-->
 
     <LinearLayout
         android:id="@+id/linearLayoutDegree"
@@ -41,7 +40,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_degree">
-        <!-- essa margin possibilitou o detalhe bg branco fosse exibido       android:layout_marginTop="250dp"-->
 
         <TextView
             android:id="@+id/tv_yearDegre"
@@ -114,7 +112,5 @@
             android:padding="16dp"
             android:scaleType="fitCenter"
             android:src="@drawable/ic_degre2" />
-
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
