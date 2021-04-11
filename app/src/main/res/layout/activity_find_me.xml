@@ -41,8 +41,7 @@
                 android:id="@+id/carViewFindMeCall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="30dp"
-                app:cardElevation="3dp">
+                app:cardCornerRadius="30dp">
 
                 <RelativeLayout
                     android:id="@+id/relativeLayoutFindMeCall"
@@ -78,8 +77,7 @@
                 android:id="@+id/carViewFindMeWpp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="30dp"
-                app:cardElevation="15dp">
+                app:cardCornerRadius="30dp">
 
                 <RelativeLayout
                     android:id="@+id/relativeLayoutFindMeWpp"
@@ -115,8 +113,7 @@
                 android:id="@+id/carViewFindMe_linkedin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="30dp"
-                app:cardElevation="15dp">
+                app:cardCornerRadius="30dp">
 
                 <RelativeLayout
                     android:id="@+id/relativeLayoutFindMeLinkedin"
@@ -152,8 +149,7 @@
                 android:id="@+id/carViewFindMe_github"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="30dp"
-                app:cardElevation="15dp">
+                app:cardCornerRadius="30dp">
 
                 <RelativeLayout
                     android:id="@+id/relativeLayoutFindMeGithub"
@@ -190,8 +186,7 @@
                 android:id="@+id/carViewFindMeGmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="30dp"
-                app:cardElevation="15dp">
+                app:cardCornerRadius="30dp">
 
                 <RelativeLayout
                     android:id="@+id/relativeLayoutFindMeGmail"
@@ -230,8 +225,7 @@
                 android:id="@+id/carViewFindMeTwitter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="30dp"
-                app:cardElevation="15dp">
+                app:cardCornerRadius="30dp">
 
                 <RelativeLayout
                     android:id="@+id/relativeLayoutFindMeTwitter"
@@ -269,8 +263,7 @@
                 android:id="@+id/carViewFindMeInstagram"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="30dp"
-                app:cardElevation="15dp">
+                app:cardCornerRadius="30dp">
 
                 <RelativeLayout
                     android:id="@+id/relativeLayoutFindMeInstagram"
