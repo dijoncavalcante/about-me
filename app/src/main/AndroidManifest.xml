@@ -26,8 +26,21 @@
         <activity
             android:name=".AboutMeActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".FindMeActivity"
-            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".FindMeActivity"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+<!--                <data android:type="*/*" />-->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+                <data android:scheme="mailto" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

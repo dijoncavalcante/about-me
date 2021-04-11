@@ -4,10 +4,12 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import com.dijon.aboutme.databinding.ActivityFindMeBinding
 import com.dijon.aboutme.presentation.base.BaseActivity
 
 class FindMeActivity : BaseActivity() {
+    private val TAG = "FindMeActivity"
 
     lateinit var bindingFindMeActivity: ActivityFindMeBinding
 
@@ -22,6 +24,7 @@ class FindMeActivity : BaseActivity() {
         bindingFindMeActivity.carViewFindMeWpp.setOnClickListener { openWhatsApp() }
         bindingFindMeActivity.carViewFindMeLinkedin.setOnClickListener { openLinkedIn() }
         bindingFindMeActivity.carViewFindMeGithub.setOnClickListener { openGithub() }
+        bindingFindMeActivity.carViewFindMeGmail.setOnClickListener { openSendEmail() }
         bindingFindMeActivity.carViewFindMeTwitter.setOnClickListener { openTwitter() }
         bindingFindMeActivity.carViewFindMeInstagram.setOnClickListener { openIntagran() }
     }
@@ -75,6 +78,25 @@ class FindMeActivity : BaseActivity() {
             Uri.parse("https://github.com/dijoncavalcante")
         )
         startActivity(openIntent)
+    }
+
+    private fun openSendEmail() {
+        val email =
+            Intent(Intent.ACTION_SENDTO).apply {//garantir que o intent seja processado somente por um app de e-mails
+                putExtra(
+                    Intent.EXTRA_EMAIL,
+                    arrayOf("dijoncavalcante@gmail.com")
+                )
+                putExtra(Intent.EXTRA_SUBJECT, "First contact by AboutApp")
+                putExtra(Intent.EXTRA_TEXT, getString(R.string.message_hi_findme))
+                setData(Uri.parse("mailto:"))// only email apps should handle this
+//                setType("message/rfc822")//
+
+            }
+        if (email.resolveActivity(packageManager) != null) {
+            startActivity(email)
+            Log.d(TAG, "Start email")
+        }
     }
 
     private fun openTwitter() {
