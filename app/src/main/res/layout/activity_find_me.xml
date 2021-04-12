@@ -41,6 +41,7 @@
                 android:id="@+id/carViewFindMeCall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardBackgroundColor="?attr/cardBackground"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -77,6 +78,7 @@
                 android:id="@+id/carViewFindMeWpp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardBackgroundColor="?attr/cardBackground"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -113,6 +115,7 @@
                 android:id="@+id/carViewFindMe_linkedin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardBackgroundColor="?attr/cardBackground"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -149,6 +152,7 @@
                 android:id="@+id/carViewFindMe_github"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardBackgroundColor="?attr/cardBackground"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -186,6 +190,7 @@
                 android:id="@+id/carViewFindMeGmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardBackgroundColor="?attr/cardBackground"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -225,6 +230,7 @@
                 android:id="@+id/carViewFindMeTwitter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardBackgroundColor="?attr/cardBackground"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout
@@ -263,6 +269,7 @@
                 android:id="@+id/carViewFindMeInstagram"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardBackgroundColor="?attr/cardBackground"
                 app:cardCornerRadius="30dp">
 
                 <RelativeLayout

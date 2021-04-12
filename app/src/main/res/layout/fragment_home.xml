@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
         android:layout_marginRight="20dp"
+        app:cardBackgroundColor="?attr/cardBackground"
         app:cardCornerRadius="30dp">
 
         <LinearLayout
@@ -37,6 +38,7 @@
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
                 android:text="@string/aboutme"
+                android:textColor="@color/app_primary_green_3"
                 android:textSize="18sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -48,6 +50,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="22dp"
         android:layout_toRightOf="@id/carViewAbout"
+        app:cardBackgroundColor="?attr/cardBackground"
         app:cardCornerRadius="30dp">
 
         <LinearLayout
@@ -73,6 +76,7 @@
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
                 android:text="@string/backgroud"
+                android:textColor="@color/app_primary_green_3"
                 android:textSize="18sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -85,6 +89,7 @@
         android:layout_marginTop="22dp"
         android:layout_marginRight="20dp"
         android:clickable="true"
+        app:cardBackgroundColor="?attr/cardBackground"
         app:cardCornerRadius="30dp">
 
         <LinearLayout
@@ -110,6 +115,7 @@
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
                 android:text="@string/experience"
+                android:textColor="@color/app_primary_green_3"
                 android:textSize="18sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -122,6 +128,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="22dp"
         android:layout_toRightOf="@id/carViewExperience"
+        app:cardBackgroundColor="?attr/cardBackground"
         app:cardCornerRadius="30dp">
 
         <LinearLayout
@@ -147,8 +154,8 @@
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
                 android:text="@string/findMe"
+                android:textColor="@color/app_primary_green_3"
                 android:textSize="18sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
 </RelativeLayout>
