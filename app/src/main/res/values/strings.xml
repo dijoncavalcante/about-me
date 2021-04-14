@@ -1,24 +1,76 @@
 <resources>
     <string name="app_name">AboutMe</string>
+    <!--    activity_main.xml-->
     <string name="home_welcome">Oi, eu sou Dijon ;)\nO que deseja saber sobre mim?</string>
     <string name="aboutme">Sobre mim</string>
     <string name="backgroud">Formação</string>
-    <string name="findMe">Me encontre</string>
     <string name="experience">Experiência</string>
-    <!--    Experience Layout-->
-    <string name="descritionJob"><![CDATA[Development (improvement & maintaining) requirements on the layers of Embedded Android platform (Apps, Framework) on the smartphones and tablets with Android OS delivery for Latin America.\nBesides working on the customization and development of Samsung\'s Android operating system.\nSome activities:\n▪ Android native source code maintenance and bug fix;]]></string>
-    <string name="descritionJob_3">▪ Development of new features and maintenance of an ERP system using .NET Windows Forms and DevExpress Libraries\n▪ Construction of queries and procedures using Oracle’s PL/SQL</string>
-    <string name="descritionJob_web">▪ Development of new features with Java EE</string>
+    <string name="hire_me">Me encontre aqui</string>
+    <!--    FindMeActivity-->
+    <string name="myCelphoneNumberwithDDD">5592993210558</string>
+    <string name="findMe">Me encontre</string>
+    <string name="cellphone">Telefone</string>
+    <string name="_55_92_993210558">+55 (92) 993210558</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="linkedin_dijon_braga">dijon-braga</string>
+    <string name="github">Github</string>
+    <string name="user_dijoncavalcante">dijoncavalcante</string>
+    <string name="gmail">Gmail</string>
+    <string name="gmail_dijoncavalcante_gmail_com">dijoncavalcante@gmail.com</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="message_hi_findme">Oi Dijon, tudo bem? encontrei seu app no github e gostaria de conversar sobre uma possível vaga, Aguardo seu retorno.</string>
+    <string name="uri_linkedin">https://www.linkedin.com/in/dijon-braga-9a5b3911a</string>
+    <string name="uri_github">https://github.com/dijoncavalcante</string>
+    <string name="subject">First contact by AboutApp</string>
+    <string name="uri_twitter">https://twitter.com/DijonBraga</string>
+    <string name="uri_instagram">https://www.instagram.com/dijonbraga/</string>
+    <string name="dijonbraga_intagram">\@dijonbraga</string>
+    <!--    item_page_about_me-->
+    <string name="what_my_name">Qual é o meu nome?</string>
+    <string name="my_name_is_dijon">Meu nome é Dijon Cavalcante Braga</string>
+    <string name="ask1">Qual é o meu nome?</string>
+    <string name="answer1">Eu sou Dijon Braga.</string>
+    <string name="ask2">Qual é a minha idade?</string>
+    <string name="ask3">Eu sou casado?</string>
+    <string name="ask4">Qual é a minha profissão?</string>
+    <string name="ask5">Em que eu sou graduado?</string>
+    <string name="ask6">Onde eu nasci?</string>
+    <string name="ask7">Qual meu hobby?</string>
+    <string name="ask8">Quais linguagens de programação eu ja trabalhei?</string>
+    <string name="ask9">Como eu me vejo daqui a 5 anos?</string>
+    <string name="ask10">Qual meu nível de Inglês?</string>
+    <string name="ask11">Meus contatos?</string>
+    <string name="answer2">Eu tenho 30 anos de idade.</string>
+    <string name="answer3">SIM! Eu sou casado há 6 anos. Ainda não tenho filhos, mas desejo ter no momento certo.</string>
+    <string name="answer4">Atualmente eu sou Engenheiro de Software no Sidia Instituto de Ciência e Tecnologia, fica localizado em Manaus/Amazonas/Brasil.</string>
+    <string name="answer5">Eu sou Baicharel em Ciência da Computação.</string>
+    <string name="answer6">Eu nasci em Manaus/Amazonas/Brasil.</string>
+    <string name="answer7">Bem, eu gosto de jogar video game, gosto de futebol também.</string>
+    <string name="answer8">Atualmente eu trabalho com Java atuando dentro do campo de android embarcado, mas eu iniciei trabalhando com Java EE, logo migrei para .Net[desktop], fiz muitas muitas conversões de tela de Visual Basic 6(VB6) para .Net e criei muitos sistemas diretamente com .Net</string>
+    <string name="answer9">Daqui a 5 anos eu desejo ser especialista em desenvolvimento de Aplicativos Móveis.</string>
+    <string name="answer10">Bem, eu diria que estou no nível intermediário. Consigo ler, ouvir e me comunicar. Atualmente estou estudando na Minds School. Qualquer coisa me avisa que te indico lá para garantir um bônus para mim kkkk...</string>
+    <string name="answer11">Segue meu número de celular: 5592993210558.\nMeu email: dijoncavalcante@gmail.com\nPerfil do linkedIn: https://www.linkedin.com/in/dijon-braga-9a5b3911a\nO restanto consulte a Página Me Encontre. Lá você vai ter mais opções de me encontrar.</string>
+    <!--    activity_experience.xml-->
+    <string name="time_work_sefaz">2012-2013</string>
+    <string name="time_work_gruposimoes">2013-2015</string>
+    <string name="time_work_itriad">2016-2017</string>
+    <string name="description_job_current"><![CDATA[Development (improvement & maintaining) requirements on the layers of Embedded Android platform (Apps, Framework) on the smartphones and tablets with Android OS delivery for Latin America.\nBesides working on the customization and development of Samsung\'s Android operating system.\nSome activities:\n▪ Android native source code maintenance and bug fix;]]></string>
+    <string name="description_job_3">▪ Development of new features and maintenance of an ERP system using .NET Windows Forms and DevExpress Libraries\n▪ Construction of queries and procedures using Oracle’s PL/SQL</string>
+    <string name="description_job_web">▪ Development of new features with Java EE</string>
     <string name="developer_dotnet">Desenvolvedor .Net</string>
     <string name="developer_web">Desenvolvedor Java</string>
-    <string name="software_engineer">Engenheiro de Software</string>
+    <string name="software_engineer_current">Engenheiro de Software</string>
     <string name="company_current">Sidia Instituto de Tecnologia</string>
     <string name="company_current_label">Atualmente</string>
     <string name="itriad">iTriad Instituto de Tecnologia</string>
     <string name="grupo_simes">Grupo Simões</string>
-    <string name="hire_me">Me encontre aqui</string>
     <string name="sefaz">SEFAZ-AM</string>
-    <string name="dijonbraga_intagram">\@dijonbraga</string>
-    <string name="message_hi_findme">Oi Dijon, tudo bem? encontrei seu app no github e gostaria de conversar sobre uma possível vaga, Aguardo seu retorno.</string>
-    <string name="myCelphoneNumberwithDDD">5592993210558</string>
+    <!--    activity_degree.xml-->
+    <string name="time_work_degree">2012 - 2017</string>
+    <string name="uninorte_label">Centro Universitário do Norte - Uninorte</string>
+    <string name="course_ciencia_da_computacao">Ciência da Computação</string>
+    <string name="url_uninorte">https://www.uninorte.com.br/</string>
+
 </resources>

@@ -19,7 +19,6 @@ class ExperienceActivity : BaseActivity() {
         bindingExperience.buttonExperience.setOnClickListener { callFindMeActivity() }
     }
 
-
     private fun callFindMeActivity() {
         val intent = Intent(this, FindMeActivity::class.java)
         startActivity(intent)

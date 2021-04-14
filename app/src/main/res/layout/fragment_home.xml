@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal">
@@ -11,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
         app:cardBackgroundColor="?attr/cardBackground"
         app:cardCornerRadius="30dp">
 
@@ -26,6 +25,7 @@
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/aboutme"
                 android:paddingTop="10dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_aboutme" />
@@ -47,9 +47,9 @@
         android:id="@+id/carViewBackground"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="22dp"
-        android:layout_toRightOf="@id/carViewAbout"
+        android:layout_toEndOf="@id/carViewAbout"
         app:cardBackgroundColor="?attr/cardBackground"
         app:cardCornerRadius="30dp">
 
@@ -64,6 +64,7 @@
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/backgroud"
                 android:paddingTop="10dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_degree" />
@@ -87,8 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/carViewAbout"
         android:layout_marginTop="22dp"
-        android:layout_marginRight="20dp"
-        android:clickable="true"
+        android:layout_marginEnd="20dp"
         app:cardBackgroundColor="?attr/cardBackground"
         app:cardCornerRadius="30dp">
 
@@ -103,6 +103,7 @@
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/experience"
                 android:paddingTop="10dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_experience" />
@@ -125,9 +126,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/carViewBackground"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="22dp"
-        android:layout_toRightOf="@id/carViewExperience"
+        android:layout_toEndOf="@id/carViewExperience"
         app:cardBackgroundColor="?attr/cardBackground"
         app:cardCornerRadius="30dp">
 
@@ -142,6 +143,7 @@
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/findMe"
                 android:paddingTop="10dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_findme" />

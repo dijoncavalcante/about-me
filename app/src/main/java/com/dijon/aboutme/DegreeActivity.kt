@@ -14,6 +14,5 @@ class DegreeActivity : BaseActivity() {
         setContentView(bindingDegree.root)
 
         setupToolbar(bindingDegree.layoutInclude.toolbarMain, R.string.backgroud, true)
-
     }
 }

@@ -5,6 +5,7 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import com.dijon.aboutme.databinding.ActivityFindMeBinding
 import com.dijon.aboutme.presentation.base.BaseActivity
 
@@ -60,14 +61,14 @@ class FindMeActivity : BaseActivity() {
             )
             startActivity(openIntent)
         } else {
-            // WhatsApp not installed show toast or dialog
+            Toast.makeText(this, "WhatsApp not installed", Toast.LENGTH_SHORT).show()
         }
     }
 
     private fun openLinkedIn() {
         val openIntent = Intent(
             Intent.ACTION_VIEW,
-            Uri.parse("https://www.linkedin.com/in/dijon-braga-9a5b3911a")
+            Uri.parse(getString(R.string.uri_linkedin))
         )
         startActivity(openIntent)
     }
@@ -75,7 +76,7 @@ class FindMeActivity : BaseActivity() {
     private fun openGithub() {
         val openIntent = Intent(
             Intent.ACTION_VIEW,
-            Uri.parse("https://github.com/dijoncavalcante")
+            Uri.parse(getString(R.string.uri_github))
         )
         startActivity(openIntent)
     }
@@ -85,13 +86,11 @@ class FindMeActivity : BaseActivity() {
             Intent(Intent.ACTION_SENDTO).apply {//garantir que o intent seja processado somente por um app de e-mails
                 putExtra(
                     Intent.EXTRA_EMAIL,
-                    arrayOf("dijoncavalcante@gmail.com")
+                    arrayOf(getString(R.string.gmail_dijoncavalcante_gmail_com))
                 )
-                putExtra(Intent.EXTRA_SUBJECT, "First contact by AboutApp")
+                putExtra(Intent.EXTRA_SUBJECT, getString(R.string.subject))
                 putExtra(Intent.EXTRA_TEXT, getString(R.string.message_hi_findme))
-                setData(Uri.parse("mailto:"))// only email apps should handle this
-//                setType("message/rfc822")//
-
+                setData(Uri.parse("mailto:"))
             }
         if (email.resolveActivity(packageManager) != null) {
             startActivity(email)
@@ -102,7 +101,7 @@ class FindMeActivity : BaseActivity() {
     private fun openTwitter() {
         val openIntent = Intent(
             Intent.ACTION_VIEW,
-            Uri.parse("https://twitter.com/DijonBraga")
+            Uri.parse(getString(R.string.uri_twitter))
         )
         startActivity(openIntent)
     }
@@ -110,9 +109,8 @@ class FindMeActivity : BaseActivity() {
     private fun openIntagran() {
         val openIntent = Intent(
             Intent.ACTION_VIEW,
-            Uri.parse("https://www.instagram.com/dijonbraga/")
+            Uri.parse(getString(R.string.uri_instagram))
         )
         startActivity(openIntent)
     }
-
 }

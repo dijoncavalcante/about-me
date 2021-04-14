@@ -61,14 +61,14 @@
                         android:id="@+id/textViewTitleCall"
                         style="@style/TextViewTitleFindMe"
                         android:layout_toRightOf="@id/iv_findme_call"
-                        android:text="Telefone" />
+                        android:text="@string/cellphone" />
 
                     <TextView
                         android:id="@+id/textViewSubtitleCall"
                         style="@style/TextViewSubTitleFindMe"
                         android:layout_below="@id/textViewTitleCall"
                         android:layout_toRightOf="@id/iv_findme_call"
-                        android:text="+55 (92) 993210558" />
+                        android:text="@string/_55_92_993210558" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -98,14 +98,14 @@
                         android:id="@+id/textViewTitleWpp"
                         style="@style/TextViewTitleFindMe"
                         android:layout_toRightOf="@id/iv_findme_wpp"
-                        android:text="WhatsApp" />
+                        android:text="@string/whatsapp" />
 
                     <TextView
                         android:id="@+id/textViewSubtitleWpp"
                         style="@style/TextViewSubTitleFindMe"
                         android:layout_below="@id/textViewTitleWpp"
                         android:layout_toRightOf="@id/iv_findme_wpp"
-                        android:text="+55 (92) 993210558" />
+                        android:text="@string/_55_92_993210558" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -135,14 +135,14 @@
                         android:id="@+id/textViewTitleLinkedin"
                         style="@style/TextViewTitleFindMe"
                         android:layout_toRightOf="@id/iv_findme_linkedin"
-                        android:text="Linkedin" />
+                        android:text="@string/linkedin" />
 
                     <TextView
                         android:id="@+id/textViewSubtitleLinkedin"
                         style="@style/TextViewSubTitleFindMe"
                         android:layout_below="@id/textViewTitleLinkedin"
                         android:layout_toRightOf="@id/iv_findme_linkedin"
-                        android:text="dijon-braga" />
+                        android:text="@string/linkedin_dijon_braga" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -172,14 +172,14 @@
                         android:id="@+id/textViewTitleGithub"
                         style="@style/TextViewTitleFindMe"
                         android:layout_toRightOf="@id/iv_findme_github"
-                        android:text="Github" />
+                        android:text="@string/github" />
 
                     <TextView
                         android:id="@+id/textViewSubtitleGithub"
                         style="@style/TextViewSubTitleFindMe"
                         android:layout_below="@id/textViewTitleGithub"
                         android:layout_toRightOf="@id/iv_findme_github"
-                        android:text="dijoncavalcante" />
+                        android:text="@string/user_dijoncavalcante" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -211,14 +211,14 @@
                         android:id="@+id/textViewTitleGmail"
                         style="@style/TextViewTitleFindMe"
                         android:layout_toRightOf="@id/iv_findme_gmail"
-                        android:text="Gmail" />
+                        android:text="@string/gmail" />
 
                     <TextView
                         android:id="@+id/textViewSubtitleGmail"
                         style="@style/TextViewSubTitleFindMe"
                         android:layout_below="@id/textViewTitleGmail"
                         android:layout_toRightOf="@id/iv_findme_gmail"
-                        android:text="dijoncavalcante@gmail.com" />
+                        android:text="@string/gmail_dijoncavalcante_gmail_com" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -251,7 +251,7 @@
                         android:id="@+id/textViewTitleTwitter"
                         style="@style/TextViewTitleFindMe"
                         android:layout_toRightOf="@id/iv_findme_twitter"
-                        android:text="Twitter" />
+                        android:text="@string/twitter" />
 
                     <TextView
                         android:id="@+id/textViewSubtitleTwitter"
@@ -289,7 +289,7 @@
                         android:id="@+id/textViewTitleInstagram"
                         style="@style/TextViewTitleFindMe"
                         android:layout_toRightOf="@id/iv_findme_instagram"
-                        android:text="Instagram" />
+                        android:text="@string/instagram" />
 
                     <TextView
                         android:id="@+id/textViewSubtitleInstagram"

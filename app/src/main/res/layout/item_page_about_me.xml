@@ -20,14 +20,13 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Qual é o meu nome?" />
+        tools:text="@string/what_my_name" />
 
     <TextView
         android:id="@+id/tv_answerAboutMe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:lineSpacingExtra="8dp"
-        android:text="@string/descritionJob"
         android:textColor="@color/app_primary_green_3"
         android:gravity="center"
         android:textSize="24sp"
@@ -36,7 +35,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_askAboutMe"
-        tools:text="Meu nome é Dijon Cavalcante Braga" />
+        tools:text="@string/my_name_is_dijon" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

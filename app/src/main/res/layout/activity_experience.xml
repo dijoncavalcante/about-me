@@ -16,8 +16,8 @@
             layout="@layout/include_toolbar" />
 
         <ImageView
-            style="@style/ImageViewTop"
             android:id="@+id/iv_experience"
+            style="@style/ImageViewTop"
             android:contentDescription="@string/experience"
             android:src="@drawable/ic_experience"
             app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:text="@string/software_engineer"
+                android:text="@string/software_engineer_current"
                 android:textColor="@color/app_primary_green_2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
@@ -89,7 +89,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:lineSpacingExtra="8dp"
-                android:text="@string/descritionJob"
+                android:text="@string/description_job_current"
                 android:textColor="@color/app_primary_green_3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
@@ -117,7 +117,7 @@
                 app:tagPaddingStart="8dp"
                 app:tagRadius="6dp"
                 app:tagSize="12sp"
-                app:tagText="2016-2017"
+                app:tagText="@string/time_work_itriad"
                 app:tagTextBackgroundColor="@color/app_primary_green_1"
                 app:tagTextColor="#FFF" />
 
@@ -140,7 +140,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:lineSpacingExtra="8dp"
-                android:text="@string/descritionJob_3"
+                android:text="@string/description_job_3"
                 android:textColor="@color/app_primary_green_3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
@@ -168,7 +168,7 @@
                 app:tagPaddingStart="8dp"
                 app:tagRadius="6dp"
                 app:tagSize="12sp"
-                app:tagText="2013-2015"
+                app:tagText="@string/time_work_gruposimoes"
                 app:tagTextBackgroundColor="@color/app_primary_green_1"
                 app:tagTextColor="#FFF" />
 
@@ -191,7 +191,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:lineSpacingExtra="8dp"
-                android:text="@string/descritionJob_3"
+                android:text="@string/description_job_3"
                 android:textColor="@color/app_primary_green_3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"
@@ -219,7 +219,7 @@
                 app:tagPaddingStart="8dp"
                 app:tagRadius="6dp"
                 app:tagSize="12sp"
-                app:tagText="2012-2013"
+                app:tagText="@string/time_work_sefaz"
                 app:tagTextBackgroundColor="@color/app_primary_green_1"
                 app:tagTextColor="#FFF" />
 
@@ -242,7 +242,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:lineSpacingExtra="8dp"
-                android:text="@string/descritionJob_web"
+                android:text="@string/description_job_web"
                 android:textColor="@color/app_primary_green_3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/guidelineVerticalExperience"

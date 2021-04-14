@@ -41,7 +41,7 @@
             android:background="@drawable/bg_square_radius_container_green"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
-            android:text="2012 - 2017"
+            android:text="@string/time_work_degree"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="24dp"
-            android:text="Centro Universitário do Norte - Uninorte"
+            android:text="@string/uninorte_label"
             android:textColor="@color/app_primary_green_2"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -64,7 +64,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
-            android:text="Ciência da Computação"
+            android:text="@string/course_ciencia_da_computacao"
             android:textColor="@color/app_primary_green_3"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -75,6 +75,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/uninorte_label"
             android:background="@drawable/bg_square_radius_container_green"
             android:paddingStart="16dp"
             android:paddingTop="8dp"
@@ -92,7 +93,7 @@
             android:paddingStart="16dp"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
-            android:text="https://www.uninorte.com.br/"
+            android:text="@string/url_uninorte"
             android:textColor="@color/app_primary_green_3"
             android:textIsSelectable="true"
             android:textSize="16sp" />
@@ -102,6 +103,7 @@
             android:layout_height="match_parent"
             android:padding="16dp"
             android:scaleType="fitCenter"
+            android:contentDescription="@string/backgroud"
             android:src="@drawable/ic_degre2" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

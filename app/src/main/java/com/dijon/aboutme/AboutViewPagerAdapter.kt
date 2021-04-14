@@ -42,10 +42,8 @@ class AboutViewPagerAdapter(private var ask: List<String>, private var answer: L
     }
 
     override fun onBindViewHolder(holder: AboutViewPagerAdapter.Pager2ViewHolder, position: Int) {
-
         holder.tv_ask.text = ask[position]
         holder.tv_answer.text = answer[position]
-
     }
 
 }
