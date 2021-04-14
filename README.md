@@ -7,9 +7,9 @@
 The purpose of this app is to show a little about my professional experience.
 
 # Project
-This project make use some technologies requested by market to help in some scenarios that simulate day to day of a android developer 
-My reason for creating the app was learning about the Kotlin language that I have been working hard to learn.
-I also had the opportunity to learn more about creating layouts using ConstraintsLayouts.
+This project make use some technologies requested by market to help in some scenarios that simulate day to day of a android developer</br> 
+My reason for creating the app was learning about the Kotlin language that I have been working hard to learn.</br>
+I also had the opportunity to learn more about creating layouts using ConstraintsLayouts.</br>
 The application aims to demonstrate my resume in the format of an application, facilitating the way to contact me through social networks, email, Whatsapp and other means.
 
 # Technologies
