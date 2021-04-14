@@ -44,5 +44,4 @@ class AboutMeActivity : BaseActivity() {
         addToList(getString(R.string.ask10), getString(R.string.answer10))
         addToList(getString(R.string.ask11), getString(R.string.answer10))
     }
-
 }
