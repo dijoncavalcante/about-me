@@ -12,6 +12,14 @@ My reason for creating the app was learning about the Kotlin language that I hav
 I also had the opportunity to learn more about creating layouts using ConstraintsLayouts.</br>
 The application aims to demonstrate my resume in the format of an application, facilitating the way to contact me through social networks, email, Whatsapp and other means.
 
+# Feature
+In this app you can:</br>
+- See some personal information about me.
+- See where I studied.
+- See my professional experience and where I worked.
+- Find me on social midia or call me.
+
+
 # Technologies
 This project use the follow technologies and tools:
 - [ViewBinding](https://developer.android.com/topic/libraries/view-binding) - Is a feature that allows you to more easily write code that interacts with views.
