@@ -41,16 +41,16 @@
     <string name="ask8">Quais linguagens de programação eu ja trabalhei?</string>
     <string name="ask9">Como eu me vejo daqui a 5 anos?</string>
     <string name="ask10">Qual meu nível de Inglês?</string>
-    <string name="ask11">Meus contatos?</string>
+    <string name="ask11">Como me contatar?</string>
     <string name="answer2">Eu tenho 30 anos de idade.</string>
     <string name="answer3">SIM! Eu sou casado há 6 anos. Ainda não tenho filhos, mas desejo ter no momento certo.</string>
-    <string name="answer4">Atualmente eu sou Engenheiro de Software no Sidia Instituto de Ciência e Tecnologia, fica localizado em Manaus/Amazonas/Brasil.</string>
+    <string name="answer4">Atualmente eu sou Engenheiro de Software na Act Digital, localizada em São Paulo/Brasil.</string>
     <string name="answer5">Eu sou Baicharel em Ciência da Computação.</string>
     <string name="answer6">Eu nasci em Manaus/Amazonas/Brasil.</string>
     <string name="answer7">Bem, eu gosto de jogar video game, gosto de futebol também.</string>
-    <string name="answer8">Atualmente eu trabalho com Java atuando dentro do campo de android embarcado, mas eu iniciei trabalhando com Java EE, logo migrei para .Net[desktop], fiz muitas muitas conversões de tela de Visual Basic 6(VB6) para .Net e criei muitos sistemas diretamente com .Net</string>
+    <string name="answer8">Atualmente eu trabalho com kotlin, atuando em aplicações android nativo, mas eu iniciei trabalhando com Java EE, logo migrei para .Net[desktop], fiz muitas muitas conversões de tela de Visual Basic 6(VB6) para .Net e criei muitos sistemas diretamente com .Net, e atuei com java nativo, em aplicações no sistema operacional android nativo.</string>
     <string name="answer9">Daqui a 5 anos eu desejo ser especialista em desenvolvimento de Aplicativos Móveis.</string>
-    <string name="answer10">Bem, eu diria que estou no nível intermediário. Consigo ler, ouvir e me comunicar. Atualmente estou estudando na Minds School. Qualquer coisa me avisa que te indico lá para garantir um bônus para mim kkkk...</string>
+    <string name="answer10">Bem, eu diria que estou no nível intermediário. Consigo ler, ouvir e me comunicar. Atualmente estou estudando com professor particular, se tiver interesse me chama no privado que te passo o contato.</string>
     <string name="answer11">Segue meu número de celular: 5592993210558.\nMeu email: dijoncavalcante@gmail.com\nPerfil do linkedIn: https://www.linkedin.com/in/dijon-braga-9a5b3911a\nO restanto consulte a Página Me Encontre. Lá você vai ter mais opções de me encontrar.</string>
     <!--    activity_experience.xml-->
     <string name="time_work_sefaz">2012-2013</string>
